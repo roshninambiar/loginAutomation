@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11612" started-at="2018-01-12T04:30:17Z" finished-at="2018-01-12T04:30:28Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="984" started-at="2018-01-12T04:30:17Z" finished-at="2018-01-12T04:30:18Z">
+      <class name="LoadPage.loadPage">
+        <test-method status="PASS" signature="checkStatusCode()[pri:1, instance:LoadPage.loadPage@77caeb3e]" name="checkStatusCode" duration-ms="968" started-at="2018-01-12T10:00:17Z" finished-at="2018-01-12T10:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="confirmCompletion()[pri:0, instance:LoadPage.loadPage@77caeb3e]" name="confirmCompletion" is-config="true" duration-ms="0" started-at="2018-01-12T10:00:18Z" finished-at="2018-01-12T10:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmCompletion -->
+      </class> <!-- LoadPage.loadPage -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="10613" started-at="2018-01-12T04:30:18Z" finished-at="2018-01-12T04:30:28Z">
+      <class name="LoadPage.findFields">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:LoadPage.findFields@59ec2012]" name="openBrowser" is-config="true" duration-ms="7060" started-at="2018-01-12T10:00:18Z" finished-at="2018-01-12T10:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="find()[pri:2, instance:LoadPage.findFields@59ec2012]" name="find" duration-ms="3550" started-at="2018-01-12T10:00:25Z" finished-at="2018-01-12T10:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- find -->
+        <test-method status="PASS" signature="confirmCompletion2()[pri:0, instance:LoadPage.findFields@59ec2012]" name="confirmCompletion2" is-config="true" duration-ms="0" started-at="2018-01-12T10:00:28Z" finished-at="2018-01-12T10:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmCompletion2 -->
+      </class> <!-- LoadPage.findFields -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
